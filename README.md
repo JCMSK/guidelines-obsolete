@@ -6,9 +6,9 @@ The following guidelines are highly-recommended suggestions to make our code con
 
 
 [General python guidelines](#General-python-guidelines)  
-&nbsp; [Naming Style](#Naming-style)  
+&nbsp; [Naming style](#Naming-style)  
 &nbsp; [Indentation](#Indentation)  
-&nbsp; [Empty Space](#Empty-space)  
+&nbsp; [Empty space](#Empty-space)  
 
 [JCMSK guidelines](#JCMSK-guidelines)  
 &nbsp; [Comments](#Comments)  
