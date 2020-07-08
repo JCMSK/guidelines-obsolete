@@ -81,26 +81,26 @@ def my_function (input1, input2):
     ```
    - To create whole code documentation using, for example, `pydoc` or `Sphinx`, where you get a list of all the functions in a package, and their documentation
     
-**Classes**
+**Classes**  
 Coming soon!
 
-**Modules**
+**Modules**  
+Coming soon!  
+
+**Packages**  
 Coming soon!
 
-**Packages**
-Coming soon!
 
-
-### Images
-**File formats**
+### Images  
+**File formats**  
 Our preferred image file format is xxx. If your images are in another file format, you can convert them to xxx using these functions (link to pyMSK image_file_conversions.py)
 
-**Orientation** 
+**Orientation**   
 Shall we define this to have always the same image orientation across pipelines?
 
 
-### Point clouds
-**File formats**
+### Point clouds  
+**File formats**  
 (this can be changed) Our preferred point clouds (or points in general) file format is `.txt`.
 In the file: 
 - Each row correspond to one point 
@@ -111,8 +111,8 @@ In the file:
   x3 y3 z3
   ```
 
-### Mesh
-**File formats**
+### Mesh  
+**File formats**  
 Our preferred mesh format is xxx (STL?)
 
 
