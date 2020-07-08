@@ -2,7 +2,7 @@
 The following guidelines are highly-recommended suggestions to make our code consistent across various pipelines
 
 “Code is read much more often than it is written.” - Guido van Rossum (founder of Python)  
-*Simplicity* is the main principle when writing code.
+*Simplicity* is the main principle when writing code
 
 
 ## General python guidelines
