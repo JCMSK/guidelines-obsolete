@@ -18,9 +18,9 @@ The following guidelines are highly-recommended suggestions to make our code con
 &nbsp; &nbsp; &nbsp; [Modules](#Modules)  
 &nbsp; &nbsp; &nbsp; [Packages](#Packages)  
 &nbsp; [Data types](#data-types)  
-&nbsp; [Image](#Image)   
-&nbsp; [Point](#Point)   
-&nbsp; [Mesh](#Mesh)   
+&nbsp; &nbsp; &nbsp; [Image](#Image)   
+&nbsp; &nbsp; &nbsp; [Point](#Point)   
+&nbsp; &nbsp; &nbsp; [Mesh](#Mesh)   
 
 
 ## General python guidelines
@@ -146,8 +146,8 @@ Points are represented in numpy arrays, where:
 - The third column is the z-coordinate 
 
 *Example*: We have four points. Point 1 has coordinates x = 1, y = 1, z = 1, point 2 has coordinates x = 2, y = 2, z = 2, etc. 
-We create a numpy array with 4 rows (= number of points) and 3 columns (= number of coordinates)  
-`points = np.array ([ (1, 1, 1), (2, 2, 2), (3, 3, 3), (4, 4, 4) ])`.
+We create a numpy array with 4 rows (= number of points) and 3 columns (= number of coordinates)      
+`points = np.array ([ (1, 1, 1), (2, 2, 2), (3, 3, 3), (4, 4, 4) ])`.  
 When we print it out (`print (points)`), it looks like this: 
 ```
 [[1 1 1]
