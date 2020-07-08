@@ -113,11 +113,11 @@ Coming soon!
 ### Data types  
 In our pipelines, we mainly use: 3D image volumes, point clouds, and meshes. Here is a summary of their characteristics:
 
-| data type | data representation | orientation                | file format |
-| :---------| :------------------ | :------------------------- | :-----------|
-| Image     | SimpleITK image     | RAI?                       | .mha?       |
-| Point     | Numpy array         | point coordinates x points | .txt        |
-| Mesh      | ?                   | ?                          | ?           | 
+| data type | data representation | orientation                                | file format |
+| :---------| :------------------ | :----------------------------------------- | :-----------|
+| Image     | SimpleITK image     | RAI?                                       | .mha?       |
+| Point     | Numpy array         | rows = points; columns = point coordinates | .txt        |
+| Mesh      | ?                   | ?                                          | ?           | 
 
 
 #### Image   
