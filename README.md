@@ -1,1 +1,3 @@
-# guidelines
+# Coding Guidelines
+
+## General python guidelines
