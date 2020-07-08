@@ -43,7 +43,7 @@ Commenting code is fundamental as it allow others to understand it (and ourselve
   a = 5
   ```
   
-**Functions**
+**Functions**  
 Each function is documented right below its definition:    
 ```
 def my_function (input1, input2):
