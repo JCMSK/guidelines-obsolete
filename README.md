@@ -9,7 +9,7 @@ The following guidelines are highly-recommended suggestions to make our code con
 Here is a summary of the guidelines used by the whole python community. Find the official guidelines [here](https://www.python.org/dev/peps/pep-0008/) 
 
 **Naming Style**
-- Variables, functions, methods, packages, modules:   
+- Variables, functions, methods, modules, packages:   
   `lower_case_with_underscores`
 - Classes and exceptions:  
   `CapWords`
