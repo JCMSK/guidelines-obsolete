@@ -48,7 +48,7 @@ Each function is documented right below its definition:
 ```
 def my_function (input1, input2):
     """
-    This functions does ...
+    This functions does ... .
     Inputs:
     - input1: contains... (type: python list)
     - input2: contains... (type: SimpleITK image)
@@ -62,14 +62,14 @@ def my_function (input1, input2):
 ```
 - The function documentation is in between three opening and three closing double quotes: `"""`
 - Outline:  
-  - Description of what the function does 
+  - Description of what the function does (First word starts with capital letter. Last sentence finishes with a dot)
   - Keyword `Inputs:` followed by a list of inputs. For each input, description of what it is, followed by the type `(type: type_of_input)`
   - Keyword `Outputs:` followed by a list of outputs. For each output, description of what it is, followed by the type `(type: type_of_output)`
-- Why is this important? 
-  These comments decleared using triple double quotes (`"""`) are called docstrings. And they are used:  
-  - By users to know what the function does by typing `help (my_function)`. For example:
-    `help(my_function)`
-    returns
+- *Why is this important?*   
+  These comments decleared using triple double quotes (`"""`) are called *docstrings*. And they are used:  
+  - By users to know what the function does by typing `help (my_function)`. For example:  
+    `help(my_function)`  
+    returns:
     ```
     def my_function (input1, input2):
     This functions does ...
@@ -79,6 +79,7 @@ def my_function (input1, input2):
         Outputs:
         - output1: contains... (type: int)
     ```
+   - To create whole code documentation using, for example, `pydoc`.  
     
 
 ### Images
