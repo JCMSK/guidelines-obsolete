@@ -91,16 +91,37 @@ Coming soon!
 Coming soon!
 
 
-### Images  
-**File formats**  
+### Data types  
+In our pipelines, we mainly use: 3D image volumes, point clouds, and meshes. Here is a summary of their characteristics:
+
+| data type | data representation | orientation                | file format |
+| :---------| :------------------ | :------------------------- | :-----------|
+| Image     | SimpleITK image     | RAI?                       | .mha?       |
+| Point     | Numpy array         | point coordinates x points | .txt        |
+| Mesh      | ?                   | ?                          | ?           | 
+
+
+#### Image   
+
+**Data representation**   
+SimpleITK image?
+
+**Orientation**  
+We have to choose one radiological orientation (e.g. RAI) so that we have for example:  
+x -> axial
+y -> sagittal
+z -> frontal
+(Add here a figure)
+
+**File formats**    
 Our preferred image file format is xxx. If your images are in another file format, you can convert them to xxx using these functions (link to pyMSK image_file_conversions.py)
 
-**Orientation**   
-Shall we define this to have always the same image orientation across pipelines?
+
+#### Point and point cloud    
+**Data representation**  
 
 
-### Point clouds  
-**File formats**  
+**File formats**    
 (this can be changed) Our preferred point cloud (or points in general) file format is `.txt`.
 In the file: 
 - Each row correspond to one point 
@@ -111,7 +132,7 @@ In the file:
   x3 y3 z3
   ```
 
-### Mesh  
+#### Meshes  
 **File formats**  
 Our preferred mesh format is xxx (STL?)
 
