@@ -101,7 +101,7 @@ Shall we define this to have always the same image orientation across pipelines?
 
 ### Point clouds  
 **File formats**  
-(this can be changed) Our preferred point clouds (or points in general) file format is `.txt`.
+(this can be changed) Our preferred point cloud (or points in general) file format is `.txt`.
 In the file: 
 - Each row correspond to one point 
 - For each point, we write `x y z` coordinates, separated by one space:
