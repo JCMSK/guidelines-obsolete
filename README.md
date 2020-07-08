@@ -54,14 +54,14 @@ Here is a summary of the guidelines used by the whole python community. Find the
 ### Comments  
 Commenting code is fundamental as it allow others to understand it (and ourselves at a later time as well!)
 
-**General comments**
+#### General comments
 - General comments are introduced by `#` and are above the code they refer to:
   ```
   # assign variable
   a = 5
   ```
   
-**Functions**  
+#### Functions  
 Each function is documented right below its definition:    
 ```
 def my_function (input1, input2):
@@ -99,13 +99,13 @@ def my_function (input1, input2):
     ```
    - To create whole code documentation using, for example, `pydoc` or `Sphinx`, where you get a list of all the functions in a package, and their documentation
     
-**Classes**  
+#### Classes
 Coming soon!
 
-**Modules**  
+#### Modules
 Coming soon!  
 
-**Packages**  
+#### Packages 
 Coming soon!
 
 
