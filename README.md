@@ -13,7 +13,11 @@ Here is a summary. Find the whole guidelines [here](https://www.python.org/dev/p
 ## JCMSK guidelines 
 
 ### Images
-#### File formats
-#### Orientation 
+**File formats**
+**Orientation** 
 
-### 
+### Point clouds
+**File formats**
+
+### Mesh
+**File formats**
