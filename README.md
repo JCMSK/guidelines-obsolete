@@ -5,6 +5,10 @@ The following guidelines are highly-recommended suggestions to make our code con
 *Simplicity* is the main principle when writing code
 
 
+[General python guidelines](#General-python-guidelines)
+
+
+
 ## General python guidelines
 Here is a summary of the guidelines used by the whole python community. Find the official guidelines [here](https://www.python.org/dev/peps/pep-0008/) 
 
