@@ -5,8 +5,22 @@ The following guidelines are highly-recommended suggestions to make our code con
 *Simplicity* is the main principle when writing code
 
 
-[General python guidelines](#General-python-guidelines)
+[General python guidelines](#General-python-guidelines)  
+&nbsp; [Naming Style](#Naming-style)  
+&nbsp; [Indentation](#Indentation)  
+&nbsp; [Empty Space](#Empty-space)  
 
+[JCMSK guidelines](#JCMSK-guidelines)  
+&nbsp; [Comments](#Comments)  
+&nbsp; &nbsp; &nbsp; [General comments](#General-comments)  
+&nbsp; &nbsp; &nbsp; [Functions](#Functions)  
+&nbsp; &nbsp; &nbsp; [Classes](#Classes)  
+&nbsp; &nbsp; &nbsp; [Modules](#Modules)  
+&nbsp; &nbsp; &nbsp; [Packages](#Packages)  
+&nbsp; [Data types](#data-types)  
+&nbsp; [Image](#Image)   
+&nbsp; [Point](#Point)   
+&nbsp; [Mesh](#Mesh)   
 
 
 ## General python guidelines
@@ -121,7 +135,7 @@ z -> frontal
 Our preferred image file format is xxx. If your images are in another file format, you can convert them to xxx using these functions (link to pyMSK image_file_conversions.py)
 
 
-#### Point and point cloud    
+#### Point  
 **Data representation**  
 
 
@@ -136,7 +150,7 @@ In the file:
   x3 y3 z3
   ```
 
-#### Meshes  
+#### Mesh  
 **File formats**  
 Our preferred mesh format is xxx (STL?)
 
