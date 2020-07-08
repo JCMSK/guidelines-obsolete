@@ -132,7 +132,7 @@ y -> sagittal
 z -> frontal  
 (Add here a figure)  
 
-##### File formats    
+##### File format    
 We save images in xxx.  
 If our images are in another file format, we can convert them to xxx using these functions (link to `pyMSK`'s `image_file_conversions.py`)
 
@@ -145,8 +145,8 @@ Points are represented in numpy arrays, where:
 - The second column is the y-coordinate  
 - The third column is the z-coordinate 
 
-*Example*: We have four points. Point 1 has coordinates x = 1, y = 1, z = 1, point 2 has coordinates x = 2, y = 2, z = 2, etc. 
-We create a numpy array with 4 rows (= number of points) and 3 columns (= number of coordinates)      
+*Example*: We have four points. Point 1 has coordinates x = 1, y = 1, z = 1, point 2 has coordinates x = 2, y = 2, z = 2, etc.   
+We create a numpy array with 4 rows (= number of points) and 3 columns (= number of coordinates):        
 `points = np.array ([ (1, 1, 1), (2, 2, 2), (3, 3, 3), (4, 4, 4) ])`.  
 When we print it out (`print (points)`), it looks like this: 
 ```
@@ -156,7 +156,7 @@ When we print it out (`print (points)`), it looks like this:
  [4 4 4]]
  ```
  
-##### File formats   
+##### File format   
 We save the points in `.txt` files.
 Similarly to the numpy representation, in the file: 
 - Each row corresponds to one point 
@@ -173,7 +173,7 @@ Similarly to the numpy representation, in the file:
 #### Mesh  
 ##### Data representation 
 ##### Orientation
-##### File formats    
+##### File format    
 Our preferred mesh format is xxx (STL?)
 
 
