@@ -85,7 +85,7 @@ def my_function (input1, input2):
   - Keyword `Inputs:` followed by a list of inputs. For each input, description of what it is, followed by the type `(type: type_of_input)`
   - Keyword `Outputs:` followed by a list of outputs. For each output, description of what it is, followed by the type `(type: type_of_output)`
 - *Why is this important?*   
-  These comments decleared using triple double quotes (`"""`) are called *docstrings*. And they are used:  
+  These comments decleared in between triple double quotes (`"""`) are called *docstrings*. And they are used:  
   - By users to know what the function does by typing `help (my_function)`. For example:  
     `help(my_function)`  
     returns:
@@ -111,7 +111,7 @@ Coming soon!
 
 
 ### Data types  
-In our pipelines, we mainly use: 3D image volumes, point clouds, and meshes. Here is a summary of their characteristics:
+In our pipelines, we mainly use: 3D image volumes, point clouds, and meshes. Here are our conventions:
 
 | data type | data representation | orientation                                | file format |
 | :---------| :------------------ | :----------------------------------------- | :-----------|
