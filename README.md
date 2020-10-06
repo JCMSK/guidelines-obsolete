@@ -22,8 +22,8 @@ The following guidelines are highly-recommended suggestions to make our code con
 &nbsp; &nbsp; &nbsp; [Packages](#Packages)  
 &nbsp; [Data types](#data-types)  
 &nbsp; &nbsp; &nbsp; [Image](#Image)  
-&nbsp; &nbsp; &nbsp; [Mesh](#Mesh)
-&nbsp; &nbsp; &nbsp; [Points](#Points)   
+&nbsp; &nbsp; &nbsp; [Mesh](#Mesh)  
+&nbsp; &nbsp; &nbsp; [Points](#Point)   
    
 
 
