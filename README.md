@@ -84,7 +84,7 @@ def my_function (input1, input2):
 ```
 - The function documentation is in between three opening and three closing double quotes: `"""`
 - Outline:  
-  - Description of what the function does (First word starts with capital letter. Last sentence finishes with a dot)
+  - Description of what the function does
   - Keyword `Inputs:` followed by a list of inputs. For each input, description of what it is, followed by the type `(type: type_of_input)`
   - Keyword `Outputs:` followed by a list of outputs. For each output, description of what it is, followed by the type `(type: type_of_output)`
 - *Why is this important?*   
