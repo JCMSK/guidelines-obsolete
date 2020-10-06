@@ -120,11 +120,15 @@ Here are our conventions:
 | data type | data representation      | file format  |
 | :---------| :----------------------- | :----------- |
 | Image     | SimpleITK / VTK?         | .mha? /.vtk? |
-| Point     | VTKPoints / Numpy array? | .vtk? / .txt?|
 | Mesh      | VTK?                     | .vtk?        | 
+| Points     | VTKPoints / Numpy array? | .vtk? / .txt?|
 
 
 #### Image   
+##### Data representation 
+##### File format    
+
+#### Mesh  
 ##### Data representation 
 ##### File format    
 
@@ -133,9 +137,7 @@ Here are our conventions:
 ##### File format   
 
 
-#### Mesh  
-##### Data representation 
-##### File format    
+
 
 
 
