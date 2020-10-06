@@ -117,25 +117,19 @@ Coming soon!
 In our pipelines, we mainly use: 3D image volumes, point clouds, and meshes.  
 Here are our conventions:
 
-| data type | data representation | file format |
-| :---------| :------------------ | :-----------|
-| Image     | SimpleITK / VTK?     | .mha? /.vtk? |
-| Point     | VTKPoints / Numpy array? | .txt     |
-| Mesh      | VTK?                  | .vtk?           | 
+| data type | data representation      | file format  |
+| :---------| :----------------------- | :----------- |
+| Image     | SimpleITK / VTK?         | .mha? /.vtk? |
+| Point     | VTKPoints / Numpy array? | .vtk? / .txt?|
+| Mesh      | VTK?                     | .vtk?        | 
 
 
 #### Image   
-
 ##### Data representation 
-SimpleITK image?
-
 ##### File format    
-We save images in xxx.  
-If our images are in another file format, we can convert them to xxx using these functions (link to `pyMSK`'s functions)
-
 
 #### Point  
-##### Data representation and orientation
+##### Data representation
 ##### File format   
 
 
