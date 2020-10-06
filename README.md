@@ -114,7 +114,7 @@ Coming soon!
 
 
 ### Data types  
-In our pipelines, we mainly use: 3D image volumes, point clouds, and meshes.  
+In our pipelines, we mainly use: 3D image volumes, meshes, and point clouds.  
 Here are our conventions:
 
 | data type | data representation      | file format  |
