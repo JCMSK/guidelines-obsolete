@@ -117,11 +117,11 @@ Coming soon!
 In our pipelines, we mainly use: 3D image volumes, point clouds, and meshes.  
 Here are our conventions:
 
-| data type | data representation | orientation                                | file format |
-| :---------| :------------------ | :----------------------------------------- | :-----------|
-| Image     | SimpleITK image     | RAI?                                       | .mha?       |
-| Point     | Numpy array         | rows = points; columns = point coordinates | .txt        |
-| Mesh      | ?                   | ?                                          | ?           | 
+| data type | data representation | file format |
+| :---------| :------------------ | :-----------|
+| Image     | SimpleITK / VTK?     | .mha? /.vtk? |
+| Point     | VTKPoints / Numpy array? | .txt     |
+| Mesh      | VTK?                  | .vtk?           | 
 
 
 #### Image   
@@ -129,56 +129,19 @@ Here are our conventions:
 ##### Data representation 
 SimpleITK image?
 
-##### Orientation
-We have to choose one radiological orientation (e.g. RAI) so that we have for example:  
-x -> axial  
-y -> sagittal  
-z -> frontal  
-(Add here a figure)  
-
 ##### File format    
 We save images in xxx.  
-If our images are in another file format, we can convert them to xxx using these functions (link to `pyMSK`'s `image_file_conversions.py`)
+If our images are in another file format, we can convert them to xxx using these functions (link to `pyMSK`'s functions)
 
 
 #### Point  
 ##### Data representation and orientation
-Points are represented in numpy arrays, where:  
-- Each row corresponds to a point
-- The first column is the x-coordinate  
-- The second column is the y-coordinate  
-- The third column is the z-coordinate 
-
-*Example*: We have four points. Point 1 has coordinates x = 1, y = 1, z = 1, point 2 has coordinates x = 2, y = 2, z = 2, etc.   
-We create a numpy array with 4 rows (= number of points) and 3 columns (= number of coordinates):        
-`points = np.array ([ (1, 1, 1), (2, 2, 2), (3, 3, 3), (4, 4, 4) ])`.  
-When we print it out (`print (points)`), it looks like this: 
-```
-[[1 1 1]
- [2 2 2]
- [3 3 3]
- [4 4 4]]
- ```
- 
 ##### File format   
-We save the points in `.txt` files.
-Similarly to the numpy representation, in the file: 
-- Each row corresponds to one point 
-- For each point, we write `x y z` coordinates, separated by one space
 
-*Example*: The array declared above would be saved in a .txt file that looks like this:
-```
-1 1 1
-2 2 2
-3 3 3
-4 4 4
-```
 
 #### Mesh  
 ##### Data representation 
-##### Orientation
 ##### File format    
-Our preferred mesh format is xxx (STL?)
 
 
 
