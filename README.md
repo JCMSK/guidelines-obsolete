@@ -67,16 +67,24 @@ Commenting code is fundamental as it allow others to understand it (and ourselve
   ```
   
 #### Functions  
+We follow the numpy style guide (see [here](https://numpydoc.readthedocs.io/en/latest/format.html)
 Each function is documented right below its definition:    
 ```
 def my_function (input1, input2):
-    """
-    This functions does ... .
-    Inputs:
-    - input1: contains... (type: python list)
-    - input2: contains... (type: SimpleITK image)
-    Outputs:
-    - output1: contains... (type: int)
+    
+    """This functions does ... .
+    
+    Parameters
+    ----------
+    x : type
+        Description of parameter `x`.
+    y
+        Description of parameter `y` (with type not specified).
+    
+    Returns
+    -------
+    int
+        Description of anonymous integer return value.
     """
     
     function body
@@ -86,23 +94,12 @@ def my_function (input1, input2):
 - The function documentation is in between three opening and three closing double quotes: `"""`
 - Outline:  
   - Description of what the function does
-  - Keyword `Inputs:` followed by a list of inputs. For each input, description of what it is, followed by the type `(type: type_of_input)`
-  - Keyword `Outputs:` followed by a list of outputs. For each output, description of what it is, followed by the type `(type: type_of_output)`
+  - Keyword `Parameters:` followed by a list of parameters. For each parameter, type on the same line, and indented description on the following line
+  - Keyword `Returns:` followed by a list of returned variables. For each variable, type on the same line, and indented description on the following line
 - *Why is this important?*   
   These comments decleared in between triple double quotes (`"""`) are called *docstrings*. And they are used:  
-  - By users to know what the function does by typing `help (my_function)`. For example:  
-    `help(my_function)`  
-    returns:
-    ```
-    def my_function (input1, input2):
-    This functions does ...
-        Inputs:
-        - input1: contains... (type: python list)
-        - input2: contains... (type: SimpleITK image)
-        Outputs:
-        - output1: contains... (type: int)
-    ```
-   - To create whole code documentation using, for example, `pydoc` or `Sphinx`, where you get a list of all the functions in a package, and their documentation
+  - By users to know what the function does by typing `help (my_function)`  
+  - To create whole code documentation using, for example, `pydoc` or `Sphinx`, where you get a list of all the functions in a package, and their documentation
     
 #### Classes
 Coming soon!
@@ -122,7 +119,7 @@ Here are our conventions:
 | :---------| :----------------------- | :----------- |
 | Image     | SimpleITK / VTK?         | .mha? /.vtk? |
 | Mesh      | VTK?                     | .vtk?        | 
-| Points     | VTKPoints / Numpy array? | .vtk? / .txt?|
+| Points    | VTKPoints / Numpy array? | .vtk? / .txt?|
 
 
 #### Image   
