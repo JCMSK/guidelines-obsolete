@@ -1,6 +1,6 @@
 ---
 ---
-**!!! You are looking at an old document. The most updated version is on our [website](https://jcmsk.github.io/for_contributors.html) !!!**
+**!!! You are looking at an old document. The most updated version is on our [website](https://jcmsk.github.io/) !!!**
 
 ---
 ---
